@@ -1,0 +1,7 @@
+transformers
+torch
+soundfile
+-e /home/lee/src/coqui-ai-TTS[server,zh]
+sentencepiece
+numpy
+tiktoken

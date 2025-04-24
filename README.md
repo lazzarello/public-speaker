@@ -25,7 +25,18 @@ The tool provides a flexible TTS system with multiple fallback options:
   - Facebook MMS-TTS
   - Other transformer-based models
 
+## Installation
+
+1. Clone this repository
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Requirements
+
+The following Python packages are required:
 
 ```
 transformers
@@ -33,6 +44,7 @@ torch
 soundfile
 TTS (optional, for XTTS support)
 sentencepiece (for SpeechT5)
+numpy
 ```
 
 ## Usage
